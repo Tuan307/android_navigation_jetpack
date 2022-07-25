@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
+import com.example.demoproject.databinding.FragmentBlank2Binding;
+
 
 public class BlankFragment2 extends Fragment {
 
@@ -15,6 +17,10 @@ public class BlankFragment2 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_blank2, container, false);
+        FragmentBlank2Binding binding = FragmentBlank2Binding.inflate(inflater, container, false);
+        View view = binding.getRoot();
+        binding.btnChangeFragment.setOnClickListener(i -> {
+        });
+        return view;
     }
 }
