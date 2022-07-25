@@ -7,10 +7,9 @@
 
     </data>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
         tools:context=".MainActivity">
 
         <androidx.fragment.app.FragmentContainerView
@@ -18,17 +17,21 @@
             android:name="androidx.navigation.fragment.NavHostFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_above="@id/bottomNav"
+            android:layout_marginTop="44dp"
             app:defaultNavHost="true"
-            app:layout_constraintBottom_toTopOf="@+id/bottomNav"
+            app:layout_constraintBottom_toTopOf="@id/bottomNav"
             app:layout_constraintTop_toTopOf="parent"
-            app:navGraph="@navigation/new_nav_graph" />
+            app:layout_constraintVertical_bias="0"
+            app:navGraph="@navigation/new_nav_graph"
+            tools:layout_editor_absoluteX="0dp" />
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottomNav"
             android:layout_width="match_parent"
             android:layout_height="64dp"
+            android:layout_alignParentBottom="true"
             android:background="@color/white"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:menu="@menu/bottom_menu" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
 </layout>
