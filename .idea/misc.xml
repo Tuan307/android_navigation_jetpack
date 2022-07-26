@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/New Things/DemoProject/app/src/main/res/drawable/button_bg.xml" value="0.2125" />
+        <entry key="..\:/New Things/DemoProject/app/src/main/res/drawable/dialog_shape.xml" value="0.2125" />
         <entry key="..\:/New Things/DemoProject/app/src/main/res/layout/activity_main.xml" value="0.2542991141219385" />
+        <entry key="..\:/New Things/DemoProject/app/src/main/res/layout/dialog_view.xml" value="0.25416666666666665" />
         <entry key="..\:/New Things/DemoProject/app/src/main/res/layout/fragment_blank.xml" value="0.25416666666666665" />
         <entry key="..\:/New Things/DemoProject/app/src/main/res/layout/fragment_blank2.xml" value="0.25416666666666665" />
         <entry key="..\:/New Things/DemoProject/app/src/main/res/layout/fragment_blank3.xml" value="0.25416666666666665" />

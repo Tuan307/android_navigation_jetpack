@@ -26,6 +26,8 @@ public class BlankFragment2 extends Fragment {
             binding.imageView.setImageResource(R.drawable.astronaut);
         });
         binding.btnChangeFragment.setOnClickListener(i -> {
+            CustomViewDialog customViewDialog = new CustomViewDialog();
+            customViewDialog.showDialog(getActivity(), "This is a normal message for a normal custom dialog");
             WallpaperManager wallpaperManager = WallpaperManager.getInstance(getActivity());
             try {
                 wallpaperManager.setResource(R.drawable.astronaut);
