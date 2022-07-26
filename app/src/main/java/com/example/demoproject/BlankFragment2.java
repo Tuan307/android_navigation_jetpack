@@ -15,6 +15,8 @@ import com.example.demoproject.databinding.FragmentBlank2Binding;
 public class BlankFragment2 extends Fragment {
 
 
+    //comment
+
     @SuppressLint("ResourceType")
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

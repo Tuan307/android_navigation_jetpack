@@ -12,7 +12,6 @@ import com.example.demoproject.databinding.FragmentBlank4Binding;
 
 public class BlankFragment4 extends Fragment {
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
