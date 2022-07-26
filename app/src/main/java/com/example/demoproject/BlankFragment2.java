@@ -19,7 +19,7 @@ import java.util.Calendar;
 
 public class BlankFragment2 extends Fragment {
 
-
+    // not comment
     @SuppressLint("ResourceType")
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
