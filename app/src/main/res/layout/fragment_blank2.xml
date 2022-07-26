@@ -6,34 +6,22 @@
     android:orientation="vertical"
     tools:context=".BlankFragment2">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/hello_blank_fragment1"
-        android:textColor="@color/black"
-        android:textSize="24sp" />
-
-    <EditText
-        android:id="@+id/editTextName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter name"
-        android:textColor="@color/black"
-        android:textSize="22sp" />
-
-    <EditText
-        android:id="@+id/editTextAge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter age"
-        android:textColor="@color/black"
-        android:textSize="22sp" />
-
     <Button
         android:id="@+id/btnChangeFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Change Fragment" />
+        android:text="Change Background" />
+
+    <Button
+        android:id="@+id/btnPreviewFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Preview Background" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>
