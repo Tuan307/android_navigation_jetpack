@@ -1,4 +1,4 @@
-package com.example.demoproject;
+package com.example.demoproject.view;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.demoproject.model.User;
 import com.example.demoproject.databinding.RecyItemBinding;
 
 import java.util.List;

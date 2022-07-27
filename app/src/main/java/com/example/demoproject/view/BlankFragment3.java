@@ -1,4 +1,4 @@
-package com.example.demoproject;
+package com.example.demoproject.view;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -6,6 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
+
+import com.example.demoproject.R;
 
 
 public class BlankFragment3 extends Fragment {

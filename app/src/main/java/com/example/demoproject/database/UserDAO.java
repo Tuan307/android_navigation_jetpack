@@ -4,7 +4,7 @@ import androidx.room.Dao;
 import androidx.room.Insert;
 import androidx.room.Query;
 
-import com.example.demoproject.User;
+import com.example.demoproject.model.User;
 
 import java.util.List;
 

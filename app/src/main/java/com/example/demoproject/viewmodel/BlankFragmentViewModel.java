@@ -1,10 +1,11 @@
-package com.example.demoproject;
+package com.example.demoproject.viewmodel;
 
 import android.app.Application;
 
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.MutableLiveData;
 
+import com.example.demoproject.model.User;
 import com.example.demoproject.database.UserDatabase;
 
 import java.util.ArrayList;

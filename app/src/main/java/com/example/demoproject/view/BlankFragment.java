@@ -1,4 +1,4 @@
-package com.example.demoproject;
+package com.example.demoproject.view;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,6 +10,8 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
+import com.example.demoproject.viewmodel.BlankFragmentViewModel;
+import com.example.demoproject.R;
 import com.example.demoproject.databinding.FragmentBlankBinding;
 
 

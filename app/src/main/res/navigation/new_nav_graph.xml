@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/frag1"
-        android:name="com.example.demoproject.BlankFragment"
+        android:name="com.example.demoproject.view.BlankFragment"
         android:label="fragment_blank"
         tools:layout="@layout/fragment_blank" />
     <fragment
         android:id="@+id/frag2"
-        android:name="com.example.demoproject.BlankFragment2"
+        android:name="com.example.demoproject.view.BlankFragment2"
         android:label="fragment_blank2"
         tools:layout="@layout/fragment_blank2" >
         <action
@@ -21,12 +21,12 @@
     </fragment>
     <fragment
         android:id="@+id/frag3"
-        android:name="com.example.demoproject.BlankFragment3"
+        android:name="com.example.demoproject.view.BlankFragment3"
         android:label="fragment_blank3"
         tools:layout="@layout/fragment_blank3" />
     <fragment
         android:id="@+id/frag4"
-        android:name="com.example.demoproject.BlankFragment4"
+        android:name="com.example.demoproject.view.BlankFragment4"
         android:label="fragment_blank4"
         tools:layout="@layout/fragment_blank4" />
 </navigation>

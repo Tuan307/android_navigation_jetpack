@@ -1,4 +1,4 @@
-package com.example.demoproject;
+package com.example.demoproject.view;
 
 import android.annotation.SuppressLint;
 import android.app.DatePickerDialog;
@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 
+import com.example.demoproject.R;
 import com.example.demoproject.databinding.FragmentBlank2Binding;
 
 import java.util.Calendar;

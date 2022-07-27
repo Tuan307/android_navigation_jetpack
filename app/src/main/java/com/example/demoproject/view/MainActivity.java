@@ -1,4 +1,4 @@
-package com.example.demoproject;
+package com.example.demoproject.view;
 
 import android.os.Bundle;
 
@@ -8,6 +8,7 @@ import androidx.navigation.NavController;
 import androidx.navigation.fragment.NavHostFragment;
 import androidx.navigation.ui.NavigationUI;
 
+import com.example.demoproject.R;
 import com.example.demoproject.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
