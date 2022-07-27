@@ -5,8 +5,8 @@ import android.app.Application;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.MutableLiveData;
 
-import com.example.demoproject.model.User;
 import com.example.demoproject.database.UserDatabase;
+import com.example.demoproject.model.User;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,5 +38,6 @@ public class BlankFragmentViewModel extends AndroidViewModel {
 
     public void addUser(User user) {
         userDatabase.userDAO().addUser(user);
+        getUsers();
     }
 }

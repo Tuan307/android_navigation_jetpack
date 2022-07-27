@@ -10,9 +10,12 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
-import com.example.demoproject.viewmodel.BlankFragmentViewModel;
 import com.example.demoproject.R;
 import com.example.demoproject.databinding.FragmentBlankBinding;
+import com.example.demoproject.model.User;
+import com.example.demoproject.viewmodel.BlankFragmentViewModel;
+
+import java.util.List;
 
 
 public class BlankFragment extends Fragment {
@@ -24,6 +27,7 @@ public class BlankFragment extends Fragment {
         super.onCreate(savedInstanceState);
 
     }
+
     // tuan pham
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -35,15 +39,13 @@ public class BlankFragment extends Fragment {
         fragmentBlankBinding.setModel(blankFragmentViewModel);
         fragmentBlankBinding.recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
-//        List<User> list = blankFragmentViewModel.initData();
-//        UserAdapter userAdapter = new UserAdapter(list, getActivity());
-//        fragmentBlankBinding.recyclerView.setAdapter(userAdapter);
-        blankFragmentViewModel.getUsers();
+        List<User> list = blankFragmentViewModel.initData();
+        UserAdapter userAdapter = new UserAdapter(list, getActivity());
+        fragmentBlankBinding.recyclerView.setAdapter(userAdapter);
         blankFragmentViewModel.getUserList().observe(getActivity(), users -> {
             UserAdapter userAdapter1 = new UserAdapter(users, getActivity());
             fragmentBlankBinding.recyclerView.setAdapter(userAdapter1);
         });
-
         return view;
     }
 }
