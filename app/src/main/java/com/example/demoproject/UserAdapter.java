@@ -9,14 +9,14 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.demoproject.databinding.RecyItemBinding;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
 
-    private ArrayList<User> list;
+    private List<User> list;
     private Context context;
 
-    public UserAdapter(ArrayList<User> list, Context context) {
+    public UserAdapter(List<User> list, Context context) {
         this.list = list;
         this.context = context;
     }

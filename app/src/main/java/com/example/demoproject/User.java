@@ -1,12 +1,16 @@
 package com.example.demoproject;
 
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
+
+@Entity(tableName = "user_database")
 public class User {
+    @PrimaryKey(autoGenerate = true)
     private int id;
     private String name;
     private int age;
 
-    public User(int id, String name, int age) {
-        this.id = id;
+    public User(String name, int age) {
         this.name = name;
         this.age = age;
     }
