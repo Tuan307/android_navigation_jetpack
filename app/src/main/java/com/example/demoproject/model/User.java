@@ -4,7 +4,7 @@ import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
 @Entity(tableName = "user_database")
-//hahahahaha
+//hahahahahaaaaaaaaaaaaaaaaaaaaaa
 //aaaaaaaaaahahahaaaaaaaaaaaaaaaaaaaaaa
 public class User {
     @PrimaryKey(autoGenerate = true)
