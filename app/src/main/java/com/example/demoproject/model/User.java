@@ -5,6 +5,7 @@ import androidx.room.PrimaryKey;
 
 @Entity(tableName = "user_database")
 //hahahahaha
+//aaa
 public class User {
     @PrimaryKey(autoGenerate = true)
     private int id;
