@@ -8,6 +8,7 @@ import androidx.room.PrimaryKey;
 //aaaaaaaaaahahahaaaaaaaaaaaaaaaaaaaaaa
 public class User {
     //all the main
+    // here
     @PrimaryKey(autoGenerate = true)
     private int id;
     private String name;
